@@ -1,0 +1,38 @@
+// --------------------------------------------------
+// Copyright Reserved geoxia
+// --------------------------------------------------
+
+//
+// Summary
+// --------------------------------------------------
+
+/**
+  [1. Variables]
+  [2. Color]
+  [3. Variables bootstrap]
+  [4. Components]
+  [5. Utilities]
+  [6. Widget]
+  [7. Modules]
+  [8. Sections]
+  [9. Modals]
+  [10. Pages]
+  [11. print]
+  [12. RWD]
+*/
+
+// import google fonts
+//@import url('https://fonts.googleapis.com/css?family=[name_fonts]:[size1,size2,...]');
+
+// Import Variables
+//@import "import/variables";
+
+// Import Sections
+//@import "import/sections";
+
+
+$midnight-blue : #2c3e50;
+
+body {
+  background-color: $midnight-blue;
+}

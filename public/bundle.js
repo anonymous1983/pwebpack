@@ -91,9 +91,10 @@
   !*** ./src/index.js ***!
   \**********************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("console.log('Init !');\n\n//# sourceURL=webpack:///./src/index.js?");
+"use strict";
+eval("\n\nconsole.log('Init !');\n\nvar x = 1;\n\nif (x === 1) {\n    var _x = 2;\n\n    console.log('x inside the if :' + _x);\n    // expected output: 2\n}\n\nconsole.log('x outside the if :' + x);\n// expected output: 1\n\nvar y = function y() {\n    console.log('init ES6 function');\n};\n\ny();\n\n(function () {\n    console.log('Anonyme init ES6 function');\n})();\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
